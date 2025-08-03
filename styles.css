@@ -1,0 +1,143 @@
+
+header{ background-color:blue;
+        opacity:0.8;
+        height:60px;
+        width:auto;
+        justify-content:center;
+        margin-bottom:40px;
+        }
+
+header nav ul{display:flex;
+              flex-direction:row;
+              padding:15px;
+              list-style-type:none;
+              }
+
+ a{color:white;
+  text-decoration:none;
+  margin:30px;
+  font-weight:bold;}
+
+#about{background-color:whitesmoke;
+       padding:8px 10px 10px;
+       display:flex;
+       flex-direction:row;
+       justify-content:center;
+       margin-bottom:40px;}
+
+        #texts{ display:block;
+        width:70%;
+        margin-right:80px;}
+       
+       #about a{text-decoration:none;
+                color:black;}
+
+img{border-radius:20%;
+    width:120px;}
+
+       #image{display:block;
+       float:right;
+       margin:auto 80px auto auto; 
+       }
+
+#projects{justify-content:center;
+          background-color:whitesmoke;
+          padding:8px 6px 10px;
+          margin-bottom:40px;
+          display:flex;
+          gap:30px;
+          }
+
+    
+    #pythone{background-color:white;
+             display:block;
+             width:45%;
+             float:right;
+             margin:6px 15px 6px;
+             padding-left:6px;}
+    #C{background-color:white;
+             display:block;
+             width:45%;
+             margin:6px 15px 6px;
+             padding-left:6px;
+             }
+     #projects a{text-decoration:none;
+                 color:blue;}
+
+#proffession{background-color:whitesmoke;}
+
+       #proffession h3 a{text-decoration:none;
+                         color:black;
+                        }         
+
+
+#skills{list-style-type:none;
+        display:block;
+        padding:10px auto 15px 5px;
+        margin-bottom:40px;}
+
+      
+
+
+#skills span{background-color:blue;
+             color:white;
+             opacity:0.8;
+             display:block;
+             width:65px;
+             height:auto;
+             margin:10px auto 15px 5px;
+             padding:5px 15px 5px;
+             border-radius:12px;
+             }
+
+#contact{background-color:whitesmoke;
+          padding:8px 10px 10px;}
+
+#contact form{display:flex;
+              flex-direction:column;
+              width:50%;
+              margin:auto;}
+
+#contact label{margin:10px 0;}
+
+#contact input, #contact textarea{width:100%;
+                                   padding:10px;
+                                   margin-bottom:15px;
+                                   border-radius:5px;
+                                   border:1px solid #ccc;}
+
+#contact input[type="submit"]{background-color:blue;
+                              color:white;
+                                border:none;
+                                cursor:pointer;
+                                padding:10px 15px;
+                                font-size:16px;
+                                }
+footer{background-color:blue;
+        color:white;
+        text-align:center;
+        padding:20px;
+        position:relative;
+        bottom:0;
+        width:100%;
+        margin-top:40px;}
+footer a{color:white;
+          text-decoration:none;
+          margin:0 10px;}
+body{font-family:Arial, sans-serif;
+     margin:0;
+        padding:0;}
+
+
+
+
+
+
+              
+              
+
+
+
+
+
+        
